@@ -88,3 +88,45 @@ p {
     bottom: 0;
     margin: 30px;
 }
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        width: 300px;
+        margin: 30px auto;
+        font-size: 23px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 13px;
+    }
+
+    .about {
+        width: 275px;
+        font-size: 13px;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 1000px);
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .col-1, .col-3 {
+        margin: 0px 0;
+    }
+
+    .card {
+        margin: 40px 0 0 0;
+        width: 275px;
+    }
+
+    .card-4 {
+        margin-bottom: 50px;
+    }
+}
