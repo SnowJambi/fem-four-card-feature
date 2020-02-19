@@ -1,5 +1,7 @@
 # Frontend Mentor - Four card feature section
 
+## View my solution to this design at https://snowjambi.github.io/fem-four-card-feature/
+
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
